@@ -24,7 +24,7 @@ REST api's performing CRUD operations, and writing to SQL Server DB (dbname: Doc
 ## Set-up  
 • You will firstly need to create a database on your local SQL Server, called Docosoft (or any name you like, just ensure to update the Connection String accordingly)  
 • Once you have created the database, execute the scripts in the DocoSoftTest.Sql\Scripts\User.sql file - these will create the **Users** table and the **GetUserById** stored procedure  
-• Next, configure your connection atring - you will find it at **\DocoSoftTestSln\DocoSoftTest.Api\appsettings.json**  
+• Next, configure your connection string - you will find it at **\DocoSoftTestSln\DocoSoftTest.Api\appsettings.json**  
 It should look something like -  
 ```
 "ConnectionStrings": {
