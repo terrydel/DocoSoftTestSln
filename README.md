@@ -16,13 +16,13 @@ automatically
 ## Solution Description 
 ### Framework . NET8
 
-Clean Archtiecture using Repository and UnitOfWork patterns, Dapper (to execute basic sql queries and stored procedure), EntityFramework
+Clean Architecture using Repository and UnitOfWork patterns, Dapper (to execute basic sql queries and stored procedure), EntityFramework
 Logging provided by Log4Net  
 UnitTests of Controller methods, using Moq and various other test libraries  
 REST api's performing CRUD operations, and writing to SQL Server DB (dbname: Docosoft)  
 
 ## Set-up  
-• You will firstly need to create a database on your local SQL server, called Docosoft (or any name you like, just ensure to update the Connection String accordingly)  
+• You will firstly need to create a database on your local SQL Server, called Docosoft (or any name you like, just ensure to update the Connection String accordingly)  
 • Once you have created the database, execute the scripts in the DocoSoftTest.Sql\Scripts\User.sql file - these will create the **Users** table and the **GetUserById** stored procedure  
 • Next, configure your connection atring - you will find it at **\DocoSoftTestSln\DocoSoftTest.Api\appsettings.json**  
 It should look something like -  
