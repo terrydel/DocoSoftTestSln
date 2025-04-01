@@ -23,7 +23,7 @@ REST api's performing CRUD operations, and writing to SQL Server DB (dbname: Doc
 
 ## Set-up  
 • You will firstly need to create a database on your local SQL server, called Docosoft (or any name you like, just ensure to update the Connection String accordingly)  
-• Once you have created the database, execute the scripts in the DocoSoftTest.Sql\Scripts\User.sql file - these will create the **Users** table and the **GetUserById** stored prcedure  
+• Once you have created the database, execute the scripts in the DocoSoftTest.Sql\Scripts\User.sql file - these will create the **Users** table and the **GetUserById** stored procedure  
 • Next, configure your connection atring - you will find it at **\DocoSoftTestSln\DocoSoftTest.Api\appsettings.json**  
 It should look something like -  
 ```
@@ -45,7 +45,7 @@ It should look something like -
 ```  
 [TypeFilter(typeof(AuthorizationFilterAttribute))]  
 ```  
-Tis will ensure that you do not need to authorise in order toe execute any of the api methods, they will operate anonymously.
+Tis will ensure that you do not need to authorise in order to execute any of the api methods, they will operate anonymously.
 
 • All endpoints should work, you can confirm this by checking the state of the data in your **Users** table in your database  
 • If you have any issues, you can contact me at <ins>terrydelahunt@hotmail.com </ins> or on  _0861921808_  
