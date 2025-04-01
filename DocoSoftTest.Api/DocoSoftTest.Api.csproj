@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DocoSoftTest.Application\DocoSoftTest.Application.csproj" />
+    <ProjectReference Include="..\DocoSoftTest.Infrastructure\DocoSoftTest.Infrastructure.csproj" />
+    <ProjectReference Include="..\DocoSoftTest.Logging\DocoSoftTest.Logging.csproj" />
+  </ItemGroup>
+
+</Project>
